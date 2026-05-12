@@ -53,7 +53,7 @@ const resumeZh: Resume = {
       company: '小米科技有限责任公司',
       role: 'AI产品经理',
       start: '2024-07',
-      end: '2026-03',
+      end: '',
       location: '北京',
       bullets: [
         'GUI Agent：通过用户数据挖掘梳理手机/车机端高频操作场景，推动GUI手机端从0到1上线亮相OS3发布会，执行完成率稳定90%+、端到端满足率达92.08%。车机端整体执行完成率达94.67%。',
@@ -137,7 +137,7 @@ const resumeEn: Resume = {
       company: 'Xiaomi Technology',
       role: 'AI Product Manager',
       start: '2024-07',
-      end: '2026-03',
+      end: '',
       location: 'Beijing',
       bullets: [
         'GUI Agent: Mined user data to identify high-frequency operation scenarios on mobile/in-vehicle devices. Drove mobile GUI Agent from 0 to 1, launched at OS3 keynote. Achieved 90%+ execution completion rate and 92.08% end-to-end satisfaction. In-vehicle execution completion reached 94.67%.',

@@ -143,7 +143,7 @@ const WORK_ZH: TimelineCard[] = [
   {
     company: '小米科技',
     role: 'AI产品经理',
-    period: '2024.07 — 2026.03',
+    period: '2024.07 — 至今',
     image: '/experience/xiaomi.JPG',
     description: '聚焦多模态大模型与图像生成方向，负责相机Agent、GUI Agent、眼镜图像问答、AIGC等项目，具备技术预研、产品设计到评测体系搭建的全链路能力。',
   },
@@ -177,7 +177,7 @@ const WORK_EN: TimelineCard[] = [
   {
     company: 'Xiaomi',
     role: 'AI Product Manager',
-    period: '2024.07 — 2026.03',
+    period: '2024.07 — Present',
     image: '/experience/xiaomi.JPG',
     description: 'Focused on multimodal LLMs and image generation. Led Camera Agent, GUI Agent, Smart Glasses Visual QA, and AIGC projects. Full-cycle capabilities from technical research and product design to evaluation system development.',
   },
