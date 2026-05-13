@@ -53,7 +53,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Changbai Mountain',
     country: 'China',
     date: '2024',
-    cover: '/travel/changbaishan/IMG_2356.JPG',
+    cover: '/travel/changbaishan/IMG_1990.JPG',
     gallery: [
       { src: '/travel/changbaishan/IMG_0129.JPG', alt: '长白山' },
       { src: '/travel/changbaishan/IMG_1990.JPG', alt: '长白山' },
@@ -83,7 +83,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Spain',
     country: 'Spain',
     date: '2024',
-    cover: '/travel/spain/IMG_1604.JPG',
+    cover: '/travel/spain/IMG_1884.JPG',
     gallery: [
       { src: '/travel/spain/IMG_0114.JPG', alt: '西班牙' },
       { src: '/travel/spain/IMG_1330.JPG', alt: '西班牙' },
@@ -123,7 +123,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Sanya, Hainan',
     country: 'China',
     date: '2025',
-    cover: '/travel/sanya/IMG_2471.JPG',
+    cover: '/travel/sanya/IMG_1861.JPG',
     gallery: [
       { src: '/travel/sanya/IMG_1861.JPG', alt: '三亚' },
       { src: '/travel/sanya/IMG_1922.JPG', alt: '三亚' },
@@ -146,7 +146,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Switzerland',
     country: 'Switzerland',
     date: '2024',
-    cover: '/travel/switzerland/IMG_3696.JPG',
+    cover: '/travel/switzerland/IMG_3492.JPG',
     gallery: [
       { src: '/travel/switzerland/IMG_3462.JPG', alt: '瑞士' },
       { src: '/travel/switzerland/IMG_3492.JPG', alt: '瑞士' },
@@ -215,7 +215,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Dalian',
     country: 'China',
     date: '2024',
-    cover: '/travel/dalian/IMG_3800.JPG',
+    cover: '/travel/dalian/IMG_4850.JPG',
     gallery: [
       { src: '/travel/dalian/IMG_3297.JPG', alt: '大连' },
       { src: '/travel/dalian/IMG_3337.JPG', alt: '大连' },
@@ -234,7 +234,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'France',
     country: 'France',
     date: '2024',
-    cover: '/travel/france/IMG_4028.JPG',
+    cover: '/travel/france/IMG_4012.JPG',
     gallery: [
       { src: '/travel/france/IMG_3779.JPG', alt: '法国' },
       { src: '/travel/france/IMG_3999.PNG', alt: '法国' },
@@ -251,7 +251,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Hangzhou',
     country: 'China',
     date: '2024',
-    cover: '/travel/hangzhou/IMG_5951.jpeg',
+    cover: '/travel/hangzhou/IMG_6127.jpeg',
     gallery: [
       { src: '/travel/hangzhou/FullSizeRender.jpeg', alt: '杭州' },
       { src: '/travel/hangzhou/IMG_5951.jpeg', alt: '杭州' },
@@ -264,7 +264,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Hong Kong',
     country: 'China',
     date: '2025',
-    cover: '/travel/hongkong/IMG_4847.JPG',
+    cover: '/travel/hongkong/fxn 2025-05-03 202338.244.jpg',
     gallery: [
       { src: '/travel/hongkong/fxn 2025-05-03 202338.244.jpg', alt: '香港' },
       { src: '/travel/hongkong/fxn 2025-05-03 210232.022.jpg', alt: '香港' },
@@ -282,7 +282,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Italy',
     country: 'Italy',
     date: '2024',
-    cover: '/travel/italy/IMG_2593.JPG',
+    cover: '/travel/italy/IMG_2724.JPG',
     gallery: [
       { src: '/travel/italy/IMG_2180.JPG', alt: '意大利' },
       { src: '/travel/italy/IMG_2593.JPG', alt: '意大利' },
@@ -303,7 +303,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Japan',
     country: 'Japan',
     date: '2024',
-    cover: '/travel/japan/IMG_3275.JPG',
+    cover: '/travel/japan/FB88C12A-3291-4566-BEE0-CC9E63A89241-30642-000004DDC8ECA0E3.jpg',
     gallery: [
       { src: '/travel/japan/D8DA5DC8-8466-48FC-B07A-70183F483518-40703-000006A9BE6DA902.jpg', alt: '日本' },
       { src: '/travel/japan/FB88C12A-3291-4566-BEE0-CC9E63A89241-30642-000004DDC8ECA0E3.jpg', alt: '日本' },
@@ -355,7 +355,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Singapore',
     country: 'Singapore',
     date: '2024',
-    cover: '/travel/singapore/IMG_5653.JPG',
+    cover: '/travel/singapore/IMG_5357.JPG',
     gallery: [
       { src: '/travel/singapore/IMG_5270.JPG', alt: '新加坡' },
       { src: '/travel/singapore/IMG_5276.JPG', alt: '新加坡' },
@@ -373,7 +373,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Suzhou',
     country: 'China',
     date: '2024',
-    cover: '/travel/suzhou/IMG_4390.JPG',
+    cover: '/travel/suzhou/IMG_4623.jpeg',
     gallery: [
       { src: '/travel/suzhou/IMG_4390.JPG', alt: '苏州' },
       { src: '/travel/suzhou/IMG_4623.jpeg', alt: '苏州' },
@@ -409,7 +409,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Wuhan',
     country: 'China',
     date: '2024',
-    cover: '/travel/wuhan/IMG_9548.JPG',
+    cover: '/travel/wuhan/IMG_9476.JPG',
     gallery: [
       { src: '/travel/wuhan/IMG_9475.JPG', alt: '武汉' },
       { src: '/travel/wuhan/IMG_9476.JPG', alt: '武汉' },
@@ -424,7 +424,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: "Xi'an",
     country: 'China',
     date: '2024',
-    cover: '/travel/xian/IMG_1002.JPG',
+    cover: '/travel/xian/IMG_0967.JPG',
     gallery: [
       { src: '/travel/xian/IMG_0967.JPG', alt: '西安' },
       { src: '/travel/xian/IMG_0978.JPG', alt: '西安' },
@@ -439,7 +439,7 @@ export const travelPlaces: TravelPlace[] = [
     subtitle: 'Zhejiang',
     country: 'China',
     date: '2023',
-    cover: '/travel/zhejiang/IMG_5176.JPG',
+    cover: '/travel/zhejiang/IMG_5715.jpeg',
     gallery: [
       { src: '/travel/zhejiang/2023-05-02 134957.jpg', alt: '浙江' },
       { src: '/travel/zhejiang/2023-05-02 140059.jpg', alt: '浙江' },
