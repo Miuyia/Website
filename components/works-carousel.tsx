@@ -96,6 +96,20 @@ export function WorksCarousel() {
   const dragRef = useRef<{ startX: number; dragging: boolean }>({ startX: 0, dragging: false });
   const { locale } = useLocale();
   const isZh = locale === 'zh';
+  const [cardSpacing, setCardSpacing] = useState(70);
+
+  // Responsive card fan spacing
+  useEffect(() => {
+    const update = () => {
+      const w = window.innerWidth;
+      if (w < 640) setCardSpacing(40);
+      else if (w < 1024) setCardSpacing(55);
+      else setCardSpacing(70);
+    };
+    update();
+    window.addEventListener('resize', update);
+    return () => window.removeEventListener('resize', update);
+  }, []);
 
   // Auto-rotate active card (faster: 2s)
   useEffect(() => {
@@ -114,7 +128,7 @@ export function WorksCarousel() {
   return (
     <>
       <div
-        className="relative w-full rounded-3xl bg-[#111] p-8 sm:p-12 lg:p-16 overflow-hidden min-h-[520px]"
+        className="relative w-full rounded-3xl bg-[#111] p-4 sm:p-8 lg:p-16 overflow-hidden min-h-[520px]"
         onMouseEnter={() => { pausedRef.current = true; }}
         onMouseLeave={() => { pausedRef.current = false; }}
       >
@@ -166,8 +180,8 @@ export function WorksCarousel() {
               const isActive = offset === 0;
 
               // Fan layout: active card center, others fan out
-              const translateX = offset * 70;
-              const translateY = absOffset * 15;
+              const translateX = offset * cardSpacing;
+              const translateY = absOffset * (cardSpacing < 50 ? 10 : 15);
               const rotate = offset * -4;
               const scale = isActive ? 1 : 0.82 - absOffset * 0.05;
               const opacity = isActive ? 1 : 0.4 - absOffset * 0.08;
@@ -311,7 +325,7 @@ export function WorksCarousel() {
                 <div className={`mt-6 ${
                   selectedProject.videos.length === 1
                     ? 'flex justify-center'
-                    : 'grid grid-cols-2 gap-3'
+                    : 'grid grid-cols-1 sm:grid-cols-2 gap-3'
                 }`}>
                   {selectedProject.videos.map((src, i) => (
                     <video
@@ -333,7 +347,7 @@ export function WorksCarousel() {
                 <div className={`mt-6 ${
                   selectedProject.gallery.length === 1
                     ? ''
-                    : 'grid grid-cols-2 gap-3'
+                    : 'grid grid-cols-1 sm:grid-cols-2 gap-3'
                 }`}>
                   {selectedProject.gallery.map((src, i) => (
                     // eslint-disable-next-line @next/next/no-img-element

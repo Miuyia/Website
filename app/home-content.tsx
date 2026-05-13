@@ -78,7 +78,7 @@ export function HomeContent() {
   const { t, locale } = useLocale();
 
   return (
-    <div className="px-8 lg:px-12">
+    <div className="px-4 sm:px-8 lg:px-12">
       <section id="about" className="grid grid-cols-1 md:grid-cols-[1fr_minmax(0,22rem)] lg:grid-cols-[1fr_minmax(0,26rem)] gap-10 lg:gap-16 items-center min-h-screen mb-20">
         <div>
           <p className="font-mono text-xs uppercase tracking-widest text-[var(--muted)] mb-4">
@@ -105,7 +105,7 @@ export function HomeContent() {
           </div>
         </div>
 
-        <div style={{ transform: 'translateX(-6rem)' }}>
+        <div className="md:-translate-x-24">
           <PhotoStack />
         </div>
       </section>
@@ -507,7 +507,7 @@ const momentCards = [
 function WorksSection({ locale }: { locale: string }) {
   const isZh = locale === 'zh';
   return (
-    <section id="works" className="mb-24 pt-20 border-t border-[var(--border)] -mx-8 lg:-mx-12 px-8 lg:px-12">
+    <section id="works" className="mb-24 pt-20 border-t border-[var(--border)] -mx-4 sm:-mx-8 lg:-mx-12 px-4 sm:px-8 lg:px-12">
       <div className="text-center mb-8">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl tracking-tight font-serif italic">
           {isZh ? '作品' : "What I've built"}
@@ -594,9 +594,9 @@ function VlogSection({ locale }: { locale: string }) {
 
         {/* Right side — iPhone frame with light 2-column masonry grid */}
         <div className="w-full lg:w-auto flex justify-center lg:justify-end shrink-0 lg:-mr-6">
-          <div className="relative w-[360px] h-[740px] rounded-[3.5rem] border-[12px] border-[#1c1c1e] bg-[#f5f5f7] shadow-2xl overflow-hidden">
+          <div className="relative w-full max-w-[360px] aspect-[360/740] rounded-[2.5rem] sm:rounded-[3.5rem] border-[10px] sm:border-[12px] border-[#1c1c1e] bg-[#f5f5f7] shadow-2xl overflow-hidden">
             {/* Dynamic Island */}
-            <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[80px] h-[22px] bg-[#1c1c1e] rounded-full z-10" />
+            <div className="absolute top-3 left-1/2 -translate-x-1/2 w-[60px] h-[17px] sm:w-[80px] sm:h-[22px] bg-[#1c1c1e] rounded-full z-10" />
             {/* Screen content — 2-column masonry grid */}
             <div className="h-full overflow-y-auto scrollbar-hide pt-11 pb-6 px-2">
               <div className="flex gap-2">
@@ -706,7 +706,7 @@ function TravelSection({ locale }: { locale: string }) {
           {' '}{isZh ? '个国家' : ' countries'}
         </p>
       </div>
-      <div className="-mx-8 lg:-mx-12">
+      <div className="-mx-4 sm:-mx-8 lg:-mx-12">
         <TravelMap />
       </div>
     </section>

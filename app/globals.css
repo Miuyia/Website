@@ -38,6 +38,7 @@ html {
 
 body {
   font-feature-settings: 'cv11', 'ss01';
+  overflow-x: hidden;
 }
 
 .prose {

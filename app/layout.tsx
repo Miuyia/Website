@@ -3,6 +3,7 @@ import { Fraunces, Geist, Geist_Mono } from 'next/font/google';
 import Script from 'next/script';
 import { LocaleProvider } from '@/components/locale-provider';
 import { SiteHeader } from '@/components/site-header';
+import { MobileNav } from '@/components/mobile-nav';
 import { SiteFooter } from '@/components/site-footer';
 import './globals.css';
 
@@ -75,6 +76,7 @@ export default function RootLayout({
         <LocaleProvider>
           <div className="flex min-h-full">
             <SiteHeader />
+            <MobileNav />
             <div className="flex-1 flex flex-col min-w-0">
               <main className="flex-1 w-full">{children}</main>
               <SiteFooter />
