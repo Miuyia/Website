@@ -13,7 +13,7 @@ export function MobileNav() {
 
   // Track active section
   useEffect(() => {
-    const sectionIds = ['about', 'experience', 'works', 'moments', 'galleries', 'personal'];
+    const sectionIds = ['about', 'experience', 'works', 'galleries', 'personal', 'moments'];
     const observers: IntersectionObserver[] = [];
 
     sectionIds.forEach((id) => {
@@ -50,9 +50,9 @@ export function MobileNav() {
     { id: 'about', label: isZh ? '关于' : 'About' },
     { id: 'experience', label: isZh ? '经历' : 'Experience' },
     { id: 'works', label: isZh ? '作品' : 'Works' },
-    { id: 'moments', label: isZh ? '日常' : 'Moments' },
     { id: 'galleries', label: isZh ? '旅行' : 'Travel' },
     { id: 'personal', label: isZh ? '更多' : 'More' },
+    { id: 'moments', label: isZh ? '日常' : 'Moments' },
   ];
 
   const handleNavClick = (id: string) => {

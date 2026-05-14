@@ -11,7 +11,7 @@ export function SiteHeader() {
   const cooldownRef = useRef(false);
 
   useEffect(() => {
-    const sectionIds = ['about', 'experience', 'works', 'moments', 'galleries', 'personal'];
+    const sectionIds = ['about', 'experience', 'works', 'galleries', 'personal', 'moments'];
     const observers: IntersectionObserver[] = [];
 
     sectionIds.forEach(id => {
@@ -46,18 +46,18 @@ export function SiteHeader() {
     { href: '/#about', id: 'about' },
     { href: '/#experience', id: 'experience' },
     { href: '/#works', id: 'works' },
-    { href: '/#moments', id: 'moments' },
     { href: '/#galleries', id: 'galleries' },
     { href: '/#personal', id: 'personal' },
+    { href: '/#moments', id: 'moments' },
   ];
 
   const navLabels = [
     t.nav.about,
     locale === 'zh' ? '经历' : 'Experience',
     locale === 'zh' ? '作品' : 'Works',
-    locale === 'zh' ? '日常' : 'Moments',
     locale === 'zh' ? '旅行' : 'Travel',
     locale === 'zh' ? '更多' : 'More',
+    locale === 'zh' ? '日常' : 'Moments',
   ];
 
   const getActiveIndex = () => {

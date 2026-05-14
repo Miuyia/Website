@@ -116,14 +116,14 @@ export function HomeContent() {
       {/* Works Section */}
       <WorksSection locale={locale} />
 
-      {/* Vlog Section */}
-      <VlogSection locale={locale} />
-
       {/* Galleries Section */}
       <TravelSection locale={locale} />
 
       {/* Personal Section */}
       <PersonalSection locale={locale} />
+
+      {/* Vlog Section */}
+      <VlogSection locale={locale} />
 
     </div>
   );
