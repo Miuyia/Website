@@ -9,6 +9,7 @@ import { travelPlaces } from '@/lib/travel';
 import { TravelMap } from '@/components/travel-map';
 import { WorksCarousel } from '@/components/works-carousel';
 import { PersonalSection } from '@/components/personal-section';
+import { LikeSection } from '@/components/like-section';
 
 const PHOTOS = [
   { src: '/首图.JPG', alt: 'Meow' },
@@ -124,6 +125,9 @@ export function HomeContent() {
 
       {/* Vlog Section */}
       <VlogSection locale={locale} />
+
+      {/* Like Button */}
+      <LikeSection locale={locale} />
 
     </div>
   );
